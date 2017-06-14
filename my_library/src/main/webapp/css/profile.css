@@ -1,0 +1,15 @@
+body {
+  background-color: #C2C2C2;
+}
+
+
+#12{
+	float:left;
+	width:800 px;
+}
+
+.content
+{position:inherit;
+height:2000px;
+ /*just to get the page to scroll*/
+}

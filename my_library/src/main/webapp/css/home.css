@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{    background:url(http://www.yana.kiev.ua/img/countries/big/1291/875213534.jpg) no-repeat;
+
+  background-size: cover;
+  height:100%;
+}
+/*  body {
+  background-color: #C2C2C2;
+}  */
+
+.menuright {
+  min-height: 20px;
+  padding: 10px 18px 10px 10px;
+  margin-bottom: 20px;
+/*
+  background-color: #f5f5f5;
+*/
+  border: 1px solid #5d2459;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+   	behavior: url(PIE/PIE.htc);
+  width:33%;
+}
+
+.titremenu {
+font-family: arial;
+color: #5d2459;
+text-transform: uppercase;
+font-weight:bold;
+font-size:19px;
+margin-bottom:10px;
+}
+
+#navigation {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation li {
+  color: #fff ;
+  margin-bottom: 1px ;
+  margin-right: 17px;
+	padding-bottom: 6px;
+	padding-right: 15px;
+  width: 100%;
+  
+}
+
+#navigation li a {
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+background: #962b84;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#962b84), to(#d6049b));
+background: -webkit-linear-gradient(#962b84, #d6049b);
+background: -moz-linear-gradient(#962b84, #d6049b);
+background: -ms-linear-gradient(#962b84, #d6049b);
+background: -o-linear-gradient(#962b84, #d6049b);
+background: linear-gradient(#962b84, #d6049b);
+-pie-background: linear-gradient(#962b84, #d6049b);
+   	behavior: url(PIE/PIE.htc);
+   	 -moz-box-shadow:inset 0px 2px 1px 0px #f7f7f7;
+	-webkit-box-shadow:inset 0px 2px 1px 0px #f7f7f7;
+	box-shadow:inset 0px 2px 1px 0px #f7f7f7;
+	border:1px solid #853584;
+	display:inline-block;
+	color:#faf7fa;
+	font-family:arial;
+	font-size:15px;
+	font-weight:normal;
+	text-decoration:none;
+  	padding: 8px 0 0 5px;
+  	width: 100%;
+  	height: 1.8em;
+}
+
+/* Set Hover */
+#navigation li a:hover {
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#D6049B), to(#962B84));
+background: -webkit-linear-gradient(#D6049B, #962B84);
+background: -moz-linear-gradient(#D6049B, #962B84);
+background: -ms-linear-gradient(#D6049B, #962B84);
+background: -o-linear-gradient(#D6049B, #962B84);
+background: linear-gradient(#D6049B, #962B84);
+	-pie-background: linear-gradient(#d6049b, #962b84);
+	   	behavior: url(PIE/PIE.htc);
+}
